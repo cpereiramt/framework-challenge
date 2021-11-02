@@ -10,7 +10,7 @@ To run this project follow the steps bellow:
 ### Run as Express API
 ---
 *  Just run the command <code> npm install </code> and <code> npm run start</code>
-*  use some rest API client like postman and access the url localhost:3000/calculator/:number, where :number is the number will be passed to API to be calculated.
+*  use some rest API client like postman and access the url localhost:3000/calculator/:number as POST, where :number is the number will be passed to API to be calculated.
 ---
 ### Unit tests and test coverage
 ---
