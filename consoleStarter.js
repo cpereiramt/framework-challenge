@@ -1,4 +1,4 @@
-const calculateDivisiblesByNumber = require("./Math/DivisibleNumber");
+const divisiblesAndPrimesByNumber = require("./Math/divisiblesAndPrimesNumber");
 
 const readline = require("readline").createInterface({
   input: process.stdin,
@@ -13,11 +13,11 @@ readline.question("Please insert one number for calculations: ", (value) => {
   } else {
     console.log(`Inputed Number: ${number}`);
     console.log(
-      `Divisible Numbers: ${calculateDivisiblesByNumber(number).divisibles}`
+      `Divisible Numbers: ${divisiblesAndPrimesByNumber(number).divisibles}`
     );
     console.log(
       `Prime Divisible Numbers: ${
-        calculateDivisiblesByNumber(number).primeDivisibles
+        divisiblesAndPrimesByNumber(number).primeDivisibles
       }`
     );
   }

@@ -1,6 +1,6 @@
-const calculationsFunctions = require("./PrimeNumber");
+const calculationsFunctions = require("./primeNumber");
 
-const calculateDivisiblesByNumber = (number) => {
+const divisiblesAndPrimesByNumber = (number) => {
   let divisibles = [];
   for (let i = 1; i <= number; i++) {
     if (number % i === 0) {
@@ -16,4 +16,4 @@ const calculateDivisiblesByNumber = (number) => {
   };
 };
 
-module.exports = calculateDivisiblesByNumber;
+module.exports = divisiblesAndPrimesByNumber;
