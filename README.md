@@ -17,7 +17,7 @@ To run this project follow the steps bellow:
 * To execute the unit tests run the command bellow: 
    <code> npm run test</code>
 * To run the tests coverage report type the follow command in console:
-   <code>npm coverage</code>
+   <code>npm run coverage</code>
 ---
 ### Endpoints
 ---
