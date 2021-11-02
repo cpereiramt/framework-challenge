@@ -9,7 +9,11 @@ const calculateDivisiblesByNumber = (number) => {
   }
   const primeDivisibles =
     calculationsFunctions.findPrimeNumbersFromArray(divisibles);
-  return { divisibles: divisibles, primeDivisibles: primeDivisibles };
+  return {
+    inputedNumber: number,
+    divisibles: divisibles,
+    primeDivisibles: primeDivisibles,
+  };
 };
 
 module.exports = calculateDivisiblesByNumber;
